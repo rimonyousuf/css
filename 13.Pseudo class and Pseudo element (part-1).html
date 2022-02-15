@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+	<head>
+		<meta charset="utf-8">
+		<title>Pseudo class and Pseudo element (part-1)</title>
+		<style>
+		
+			a.ekta:hover{
+				color:green;
+			}
+			
+			input{
+				padding:10px;
+				font-size:10px;
+				width:150px;
+			}
+			input:focus{
+				background-color:green;
+				opacity: 0.3;
+			}
+			
+			table,tr,th,td{
+				border:1px solid black;
+			}
+			tr:nth-child(odd){
+				background-color:green;
+				opacity: 0.3;
+			}
+			
+			p:hover{
+				background-color:green;
+				opacity: 0.3;
+			}
+			p::first-letter{
+				color:orange;
+				font-size:60px;
+			}
+		
+		</style>
+	</head>
+	
+	<body>
+	
+		<a class="ekta" href="#">Boss</a>
+		<a href="#">Bal</a> <br> <br>
+		
+		<input type="text" placeholder="Enter your name">
+		
+		<table>
+		
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Age</th>
+				</tr>
+			</thead>
+			<tbody>	
+				
+				<tr>
+					<td>Rimon</td>
+					<td>22</td>
+				</tr>
+				
+				<tr>
+					<td>Yousuf</td>
+					<td>21</td>
+				</tr>
+			</tbody>	
+		
+		</table>
+		
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	
+	</body>
+
+
+</html>

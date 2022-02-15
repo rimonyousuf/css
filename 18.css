@@ -1,0 +1,14 @@
+#section1{
+    background-color:#00FFFF;
+    float: left;
+}
+#section2{
+    background-color: #F0FFFF;
+    float: left;
+}
+#clear{
+    clear: both;
+}
+#section3{
+    background-color: #FFF8DC;
+}

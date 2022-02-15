@@ -1,0 +1,24 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /*grid-template-rows: 120px 40px 60px 35px;*/
+    /*grid-column-gap: 10px;
+    grid-row-gap: 10px;   2ta property eksathe use krte prbo  */
+    /*grid-gap: 10px 10px;*/
+    background-color: cadetblue;
+    justify-content: center;
+}
+.grid-container > div{
+    background-color: chocolate;
+    color: white;
+    border: 1px solid black;
+    padding: 10px;
+}
+.it{
+    /*grid-column-start: 1;
+    grid-column-end: 3;*/
+    grid-column: 1 / 3;
+    /*grid-row-start: 1;
+    grid-row-end: 3;*/
+    grid-row: 1 / 4;
+}

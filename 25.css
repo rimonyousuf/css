@@ -1,0 +1,9 @@
+h1{
+    text-shadow: 6px 6px 6px aqua;
+}
+.div1{
+    width: 200px;
+    background-color: aqua;
+    border: 2px solid brown;
+    box-shadow: 5px 5px 5px black;
+}

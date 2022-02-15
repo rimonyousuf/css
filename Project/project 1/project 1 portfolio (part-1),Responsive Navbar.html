@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio (part-1) | Responsive Navbar</title>
+
+    <!--Google Font-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Montserrat&family=Satisfy&display=swap" rel="stylesheet">
+
+        <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--css for mobile-->
+    <link rel="stylesheet" type="text/css" href="project1 part 1 mobile.css">
+
+    <!--css for dekstop-->
+    <link rel="stylesheet" type="text/css" href="project1 part 1 dekstop.css" media="screen and (min-width: 992px)">
+</head>
+<body>
+
+    <!--Navbar starts from here-->
+    <div class="navbar">
+        <div class="nav-logo col-2">
+            <img src="pic/logo.jpg" alt="logo">
+        </div>
+
+        <div class="nav-title col-4">
+            <h1>Rimon Business</h1>
+        </div>
+
+        <div class="nav-menu col-6">
+            <a href="#">Home</a>
+            <a href="#skill-id">Skills</a>
+            <a href="#about-mee-id">About me</a>
+            <a href="#contact-id">Contact</a>
+        </div>
+    </div>
+    <!--Navbar ends here-->
+
+    <!-- profile starts from here -->
+    <div class="profile">
+        <img class="dp" src="pic/character.png" alt="character">
+        <div class="pro-des">
+            <h1>Welcome to my page</h1>
+            <p>Hey this is Rimon.And It's my web page.Your mind is programmable - if you're not programming your mind, else will program it for you.</p>
+        </div>
+        <img class="down-pic" src="pic/character.png" alt="character">
+    </div> <br> <br> <br> <br>
+    <!-- Profile ends here -->
+
+    <!-- about me starts here -->
+    <div class="about-me" id="about-mee-id">
+        <h2>About me</h2>
+        <hr class="dotted-hr">
+        <div class="about-me-img col-6">
+            <img src="pic/me.jpg" alt="Rimon">
+        </div>
+        <div class="about-me-des col-6">
+            <p>I like to myself call "a passionate Web Developer"</p>
+            <p>A designer knows he has achieved perfection not when there is nothing left to add, but when there is nothing left to take away</p>
+
+            <hr class="aboutme-hr">
+            <p>Name:Yasir Yousuf Rimon</p>
+            <hr class="aboutme-hr">
+            <p>Address:Kunming,China</p>
+            <hr class="aboutme-hr">
+            <p>Email: <a href="mailto:yasirjob0@gmail.com">yasirjob0@gmail.com</a></p>
+            <hr class="aboutme-hr">
+            <p>Phone: <a href="tel:+8801938969920">+8801938969920</a></p>
+            <hr class="aboutme-hr">
+
+            <p>
+                <a href="#" target="blank" download="">
+                    <button class="cv-btn">Download CV</button>
+                </a>
+            </p>
+        </div>
+    </div>
+    <!-- about me ends here -->
+    
+    <!-- professional experience starts here -->
+    <div class="professional-experience">
+        <div class="work-experience col-4">
+
+            <div class="card">
+                <div class="card-icon">
+                    <img class="ic-img" src="pic/work.png" alt="work">
+                </div>
+    
+                <div class="card-title">
+                    <h2>WORK EXPERIENCE</h2>
+                </div>
+    
+                <div class="card-des">
+                    <ol>
+                        <li>
+                            <strong>Assistant Web Developer</strong> <br>
+                            16/02/2020-30/09/2020 <br>
+                            Abhi's IT Farm <br>
+                            Uttara,Dhaka,Bangladesh <br>
+                        </li>
+                        <hr>
+    
+                        <li>
+                            <strong>Junior Wordpress Developer</strong> <br>
+                            01/12/2020-14/11/2021 <br>
+                            SJ Innovation LLC <br>
+                            Dhaka,Bangladesh <br>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="education col-4">
+            <div class="card">
+                <div class="card-icon">
+                    <img class="ic-img" src="pic/education.png" alt="education">
+                </div>
+    
+                <div class="card-title">
+                    <h2>EDUCATION</h2>
+                </div>
+    
+                <div class="card-des">
+                    <ol>
+                        <li>
+                            <strong>Intermediate</strong> <br>
+                            01/06/2016-30/06/2018 <br>
+                            Meherpur Paura College <br>
+                            Meherpur,Bangladesh <br>
+                        </li>
+                        <hr>
+    
+                        <li>
+                            <strong>B.Sc in Software Engineering</strong> <br>
+                            01/09/2019-30/06/2023 <br>
+                            Yunnan University <br>
+                            Kunming,Yunnan,China <br>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+
+        <div class="skills col-4" id="skill-id">
+            <div class="card">
+                <div class="card-icon">
+                    <img class="ic-img" src="pic/skill.png" alt="skill">
+                </div>
+    
+                <div class="card-title">
+                    <h2>SKILLS</h2>
+                </div>
+    
+                <div class="card-des">
+                    <div class="skill-container">
+                        <ul>
+                            <li class="html">HTML</li>
+                            <li class="css">CSS</li>
+                            <li class="bs">Bootstrap</li>
+                            <li class="js">javascript</li>
+                            <li class="jq">jquery</li>
+                            <li class="gh">github</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- professional experience ends here -->
+
+    <!-- achievement-contact starts here -->
+    <div class="achievement-contact">
+        <div class="achievement col-4">
+            <h2>ACHIEVEMENT</h2>
+            <hr class="dotted-hr">
+            <P>1. 50% Tuition Waiver:Based on good academic result in Yunnan University,China</P><br>
+            <p>2. Yunnan Provincial Scholarship:Half paying tuition and hostel fee </p><br>
+
+        </div>
+
+        <div class="contact col-4" id="contact-id">
+            <h2>CONTACT ME</h2>
+            <hr class="dotted-hr">
+
+            <form action="mailto:yasirjob0@gmail.com" method="post" enctype="text/plain">
+                <p><input type="text" placeholder="Type your name" name="name"></p>
+                <p><input type="email" placeholder="Type your mail" name="email"></p>
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Type your message here"></textarea>
+                <button type="submit">Send</button>
+                <button type="reset">Reset</button>
+            </form>
+        </div>
+
+        <div class="contact-link col-4">
+            <h2>More Ways to Contact</h2>
+            <hr class="dotted-hr">
+            <div class="media-button">
+                <button class="btn" onclick="window.open('https://www.youtube.com/')"class="request-callback" ><i class="fa fa-youtube-play" style="color: orangered;" aria-hidden="true"></i></button>
+                <button class="btn" onclick="window.open('https://www.facebook.com/mohammad.yousuf.5454021')"class="request-callback" ><i class="fa fa-facebook" style="color: dodgerblue;" aria-hidden="true"></i></button>
+                <button class="btn" onclick="window.open('https://twitter.com/yousuf_yasir')"class="request-callback" ><i class="fa fa-twitter" style="color: dodgerblue;" aria-hidden="true"></i></button>
+                <button class="btn" onclick="window.open('https://www.instagram.com/rimonyousuf/')"class="request-callback" ><i class="fa fa-instagram" style="color: #8a3ab9;" aria-hidden="true"></i></button>
+            </div>
+        </div>
+    </div>
+    <!-- achievement-contact ends here -->
+
+    <!-- footer starts here -->
+    <div class="footer">
+        <div class="footer-menu col-6">
+            <a href="#">Home</a>
+            <a href="#skill-id">Skills</a>
+            <a href="#about-mee-id">About me</a>
+            <a href="#contact-id">Contact</a>
+        </div>
+
+        <div class="footer-des col-6">
+            &copy; Rimon 2021.Developed with <span style="color: red; font-size: 1.2rem;">❤</span> Rimon
+        </div>
+    </div>
+    <!-- footer ends here -->
+
+</body>
+</html>

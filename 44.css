@@ -1,0 +1,18 @@
+.course{
+    background-color: gainsboro;
+    padding: 20px;
+}
+.course ul{
+    list-style-type: none;
+}
+.course li{
+    font-size: 1.2rem;
+}
+.course li::before{
+    content: '\f058';
+    font-family: 'Font Awesome 5 free';
+    font-weight: bold;
+
+    display: inline-block;
+    margin: 10px 5px;
+}

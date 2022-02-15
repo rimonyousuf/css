@@ -1,0 +1,40 @@
+.div1{
+    border: 3px solid green;
+    padding: 5px;
+    position: static;
+    top: 20px; 
+    
+    /*ekhane lest right top bottom e jai propoerty diy na kno
+    ta kono kaje asbena karon eta static*/
+}
+.div2{
+    border: 3px solid red;
+    padding: 5px;
+    position: relative;
+    left: 20px; 
+    
+    /*ekhane lest right top bottom e jai propoerty diy na kno
+    ta kaje asbe karon eta relative*/
+}
+.nav{
+    border: 3px solid orange;
+    padding: 10px;
+    position: fixed;
+    left: 20px;
+    font-weight: bold;
+
+    /*ekhane position fixed thakar karone joto scroll e korina kno
+    eta norachora korbena*/
+}
+.div3{
+    border: 3px solid aqua;
+    padding: 5px;
+    position: relative;
+    height: 250px;
+}
+.div4{
+    border: 3px solid red;
+    padding: 10px;
+    position: absolute;
+    left: 50px;
+}

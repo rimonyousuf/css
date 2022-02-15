@@ -1,0 +1,13 @@
+.container{
+    background-color: lightcoral;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.container > div{
+    width: 100px;
+    font-size: 35px;
+    margin: 10px;
+    padding: 20px;
+    background-color: lightgreen;
+}

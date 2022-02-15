@@ -1,0 +1,24 @@
+div{
+    width: 200px;
+    height: 100px;
+    background-color: seashell;
+    border: 1px solid green;
+    overflow: auto;
+}
+.tooltip{
+    position: relative;
+}
+.tooltip .tt{
+    width: 150px;
+    background-color: indigo;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    z-index: 1;
+    visibility: hidden;
+}
+.tooltip:hover .tt{
+    visibility: visible;
+}
